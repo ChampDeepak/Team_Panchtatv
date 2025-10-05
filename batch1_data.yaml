@@ -1,0 +1,55 @@
+# ------------------------------------------------------------------
+#  YOLOv8 Dataset Configuration File
+# ------------------------------------------------------------------
+
+# == Step 1: Define the root path of the dataset ==
+# The path now correctly uses the lowercase 'batch1' folder name.
+path: /home/deepak/Downloads/Batch1
+
+# == Step 2: Define the image directories for each split ==
+# These paths are relative to the 'path' above.
+train: images/train
+val: images/val
+test: images/test
+
+# == Step 3: Define the class information ==
+# Number of classes
+nc: 35
+
+# Class names in order (ID 0, 1, 2, ...)
+names:
+  - Person
+  - Chair
+  - Toothbrush
+  - Knife
+  - Bottle
+  - Cup
+  - Spoon
+  - Bench
+  - Refrigerator
+  - Fork
+  - Bus
+  - Toilet
+  - Bicycle
+  - Airplane
+  - Truck
+  - Motorcycle
+  - Oven
+  - Dog
+  - Bed
+  - Cat
+  - Traffic Light
+  - Currency
+  - Face
+  - Stop Sign
+  - Car
+  - Barrier
+  - Path Hole
+  - Stairs
+  - Train
+  - Bin
+  - Blind Stick
+  - Men Sign
+  - Cell Phone
+  - Women Sign
+  - Tap

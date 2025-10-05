@@ -1,0 +1,54 @@
+# ------------------------------------------------------------------
+#  YOLOv8 Dataset Configuration File for Batch 2
+# ------------------------------------------------------------------
+
+# == Step 1: Define the root path of the new dataset ==
+path: /home/deepak/Downloads/Batch2
+
+# == Step 2: Define the image directories for each split ==
+# These paths are relative to the 'path' above.
+train: images/train
+val: images/val
+test: images/test
+
+# == Step 3: Define the class information ==
+# IMPORTANT: Ensure this matches the classes in your Batch2 dataset.
+# If the classes are different, you must update nc and the names list.
+nc: 35
+
+names:
+  - Person
+  - Chair
+  - Toothbrush
+  - Knife
+  - Bottle
+  - Cup
+  - Spoon
+  - Bench
+  - Refrigerator
+  - Fork
+  - Bus
+  - Toilet
+  - Bicycle
+  - Airplane
+  - Truck
+  - Motorcycle
+  - Oven
+  - Dog
+  - Bed
+  - Cat
+  - Traffic Light
+  - Currency
+  - Face
+  - Stop Sign
+  - Car
+  - Barrier
+  - Path Hole
+  - Stairs
+  - Train
+  - Bin
+  - Blind Stick
+  - Men Sign
+  - Cell Phone
+  - Women Sign
+  - Tap
